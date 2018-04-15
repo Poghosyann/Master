@@ -1,0 +1,84 @@
+/* Menu items */
+.menuzord-menu > li{
+	padding: 10px 0;
+}
+.menuzord-menu > li > a{
+	padding:10px 15px;
+	margin-top: 15px;
+	font-weight: 400;
+	color: #001a35 !important;
+}
+
+/* Active/hover state (menu items) */
+.menuzord-menu > li.active > a,
+.menuzord-menu > li:hover > a{
+	border-bottom: 1px solid #0c3355;
+}
+
+/* Dropdown */
+.menuzord-menu ul.dropdown{
+	top: 71px;
+}
+.menuzord-menu ul.dropdown li ul.dropdown{
+    top: 0;
+}
+
+/* Dropdown items */
+.menuzord .menuzord-menu ul.dropdown li:hover > a{
+	background: none;
+	color: #fff;
+}
+
+/* Megamenu */
+.menuzord-menu > li > .megamenu{
+	top: 71px;
+}
+
+.dropdown-menu {
+	width: 56px;
+	margin: 0 12px!important;
+	padding: 0 10px;
+	background-color: rgba(0,175,241,.9);
+}
+.dropdown-menu > li > a {
+	display: block;
+	padding: 0 0;
+	clear: both;
+	font-weight: 400;
+	line-height: 51px;
+	color: #102b57 !important;
+	white-space: nowrap;
+}
+.dropdown-menu > li:last-child > a {
+	border-bottom:none;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+	color: #21335a;
+	background-color: transparent;
+}
+
+.dropdown-menu input[type="text"]{
+	line-height:30px;
+	background:none;
+	border:none;
+	color:#fff;
+}
+
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus{
+	color: #21335a;
+	background:transparent;
+}
+
+/* Mobile mode (Responsive mode) */
+@media (max-width: 900px){
+	/* Menu items */
+	.menuzord-responsive .menuzord-menu > li{
+		padding: 0;
+	}
+	.menuzord-responsive .menuzord-menu > li > a{
+		padding: 12px 20px !important;
+	}
+}
